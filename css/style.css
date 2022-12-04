@@ -83,15 +83,17 @@ header {
     background-color: transparent;
 }
 
-.work-container {
+.work-container,
+.skills-container {
     max-width: var(--max-width);
     text-align: center;
     color: var(--color-white);
 }
 
-.work-container h2{
+.work-container h2,
+.skills-container h2{
     color: var(--color-primary);
-    margin-bottom: 3rem;
+    margin: 5rem 0 3rem 0;
     padding-bottom: 1rem;
     border-bottom: 2px solid var(--color-primary);
 }
@@ -132,4 +134,19 @@ header {
     color: var(--color-white) !important;
     margin: 2rem 0;
 
+}
+
+.logos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+figure {
+    padding: 1rem;
+}
+
+figure figcaption {
+    font-weight: 500;
 }
