@@ -10,9 +10,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--color-secondary);
+    position: relative;
 }
 
 header {
+    position: absolute;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -24,6 +26,7 @@ header {
     width: 100%;
     padding: 2rem;
     max-width: var(--max-width);
+    z-index: 10;
 }
 
 .customNav .navbar-brand {
@@ -51,4 +54,30 @@ header {
     color: var(--color-primary) !important;
     border-bottom: 1px solid var(--color-primary);
     border-radius: 5px;
+}
+
+.customJumbotron {
+    background-image: url(../images/bg-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--color-white);
+    padding-top: 12rem;
+}
+
+.jumbotronContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: var(--max-width);
+}
+
+.jumbotronContainer img{
+    width: 125px;
+    padding-bottom: 1rem;
+}
+
+.jumbotronContainer h1{
+    font-weight: 500;
+    padding-bottom: 1rem;
 }
