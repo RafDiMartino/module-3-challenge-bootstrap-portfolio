@@ -9,7 +9,8 @@
 	<title>Bootstrap Portfolio</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="./css/style.css">
@@ -24,7 +25,7 @@
 				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-	
+
 			<div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
 				<ul class="navbar-nav nav">
 					<li class="nav-item">
@@ -49,25 +50,130 @@
 		<div class="customJumbotron jumbotron jumbotron-fluid">
 			<div class="jumbotronContainer container">
 				<img class="avatar" src="https://avatars.dicebear.com/api/male/RaffaeleDiMArtino.svg" alt="My avatar">
-			  	<h1 class="display-5">Welcome to my portfolio!!</h1>
-			  	<p class="lead">I am a Frontend Developer with an Art & Design background.</p>
+				<h1 class="display-5">Welcome to my portfolio!!</h1>
+				<p class="lead">I am a Frontend Developer with an Art & Design background.</p>
 			</div>
 		</div>
 	</section>
 	<!-- Bootstrap Jambotron hero-section end-->
 
+	<!-- Bootstrap cards - work-section start -->
+	<section class="work-container content container-fluid">
+		<h2 class="sectionHeading">Work</h2>
+		<div class="showsNear row">
+			<!-- Card 1 -->
+			<div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+				<div class="card">
+					<img src="./images/duplex-project.png" class="card-img-top" alt="Duplex website screenshot">
+					<div class="card-body">
+						<h3 class="card-title">Duplex</h3>
+						<p class="card-text">
+							Website for a private apartment renting business in a French Alps ski resort - Made with
+							Next.js.
+						</p>
+						<a href="https://www.duplexvalthorens.com/" class="btn btn-primary" target="_blank">
+							Go to the project
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- End card 1 -->
+
+			<!-- Card 2 -->
+			<div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+				<div class="card">
+					<img src="./images/creative-lab-project.png" class="card-img-top" alt="Creative Lab website screenshot">
+					<div class="card-body">
+						<h3 class="card-title">Creative Lab</h3>
+						<p class="card-text">
+							Website for an artisan who customises shoes, candles and more - Made with React.
+						</p>
+						<a href="https://laboratoriocreativo.net/#/" class="btn btn-primary" target="_blank">
+							Go to the project
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- End card 2 -->
+
+			<!-- Card 3 -->
+			<div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+				<div class="card">
+					<img src="./images/weather-app-project.png" class="card-img-top" alt="Wheater app screenshot">
+					<div class="card-body">
+						<h3 class="card-title">Weather App</h3>
+						<p class="card-text">
+							In this Progressive Web App, I fetch data from the openweathermap API.
+						</p>
+						<a href="https://rafdimartino.github.io/Weather-App/" class="btn btn-primary" target="_blank">
+							Go to the project
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- End card 3 -->
+			<!-- Card 4 -->
+			<div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+				<div class="card">
+					<img src="./images/piano-project.png" class="card-img-top" alt="Piano app screenshot">
+					<div class="card-body">
+						<h3 class="card-title">Piano App</h3>
+						<p class="card-text">
+							A piano App, practicing with JavaScript DOM manipulation and Events.
+						</p>
+						<a href="https://rafdimartino.github.io/Virtual%20Piano-/Virtual%20Piano.html" class="btn btn-primary" target="_blank">
+							Go to the project
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- End card 4 -->
+			<!-- Card 5 -->
+			<div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+				<div class="card">
+					<img src="./images/cipher-project.png" class="card-img-top" alt="Cypher app screenshot">
+					<div class="card-body">
+						<h3 class="card-title">Cypher App</h3>
+						<p class="card-text">
+							My version of the Caesar Cipher with three methods of encryption.
+						</p>
+						<a href="https://rafdimartino.github.io/Caesar-Cipher/index.html" class="btn btn-primary" target="_blank">
+							Go to the project
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- End card 5 -->
+			<!-- Card 6 -->
+			<div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+				<div class="card">
+					<img src="./images/clock-project.png" class="card-img-top" alt="Clock app screenshot">
+					<div class="card-body">
+						<h3 class="card-title">Clock App</h3>
+						<p class="card-text">
+							In this app I am practicing with JavaScript DOM manipulation and Date Object.
+						</p>
+						<a href="https://rafdimartino.github.io/DigitalClock/index.html" class="btn btn-primary" target="_blank">
+							Go to the project
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- End card 6 -->
+		</div>
+	</section>
+	<!-- End cards -->
+	<!-- Bootstrap cards - work-section start -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-		crossorigin="anonymous">
-	</script>
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+		</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-		crossorigin="anonymous">
-	</script>
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+		</script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-		crossorigin="anonymous">
-	</script>
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+		</script>
 </body>
+
 </html>
