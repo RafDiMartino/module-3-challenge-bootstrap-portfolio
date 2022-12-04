@@ -80,4 +80,56 @@ header {
 .jumbotronContainer h1{
     font-weight: 500;
     padding-bottom: 1rem;
+    background-color: transparent;
+}
+
+.work-container {
+    max-width: var(--max-width);
+    text-align: center;
+    color: var(--color-white);
+}
+
+.work-container h2{
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.cardContainer {
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    border: 2px solid var(--color-primary);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover; 
+}
+
+.card-body {
+    background-color: var(--color-black);
+}
+
+.card-body a {
+    background-color:var(--color-primary);
+    color: var(--color-secondary);
+    font-weight: 500;
+    border: none;
+    
+}
+
+.card-body a:hover {
+    background-color:var(--color-white);
+    color: var(--color-black);
+    border: none;
+    box-shadow: var(--color-primary) 0px 3px 8px;
+}
+
+.card-text{
+    color: var(--color-white) !important;
+    margin: 2rem 0;
+
 }
