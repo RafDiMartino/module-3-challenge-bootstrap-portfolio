@@ -173,3 +173,31 @@ figure {
 figure figcaption {
     font-weight: 500;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    background-color: var(--color-black);
+    margin-top: 5rem;
+}
+
+footer h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-white);
+}
+
+footer hr {
+    background-color: var(--color-primary);
+    margin: .7rem 0;
+    width: 100px;
+}
+
+footer p {
+    font-size: 14px;
+    color: var(--color-white);
+}
