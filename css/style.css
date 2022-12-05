@@ -1,6 +1,6 @@
 :root {
     --max-width: 1024px; 
-    --color-primary: #6aff4d;
+    --color-primary: rgb(255, 191, 0);
     --color-secondary: #3b3b3b;
     --color-black: #282828;
     --color-white: rgb(226, 226, 226);
@@ -83,9 +83,13 @@ header {
 }
 
 .jumbotronContainer h1{
-    font-weight: 500;
+    font-weight: 600;
     padding-bottom: 1rem;
     background-color: transparent;
+}
+
+.jumbotronContainer p{
+    font-weight: 400;
 }
 
 .contacts-links {
@@ -106,8 +110,10 @@ header {
 
 .contacts-links a:hover {
     color: var(--color-primary);
-    box-shadow: rgba(46, 240, 49, 0.4) 0px 5px, rgba(46, 240, 49, 0.3) 0px 10px, rgba(46, 240, 49, 0.2) 0px 15px, rgba(46, 240, 49, 0.1) 0px 20px, rgba(46, 240, 49, 0.05) 0px 25px;}
+    box-shadow: rgba(255, 191, 0, 0.4) 0px 5px, rgba(255, 191, 0, 0.3) 0px 10px, rgba(255, 191, 0, 0.2) 0px 15px, rgba(255, 191, 0, 0.1) 0px 20px, rgba(255, 191, 0, 0.05) 0px 25px;
+}
 
+/* Grouping classes following the DRY principle */
 .work-container,
 .skills-container,
 .about-contact-container {
@@ -115,11 +121,12 @@ header {
     text-align: center;
     color: var(--color-white);
 }
-
+/* Grouping classes following the DRY principle */
 .work-container h2,
 .skills-container h2,
 .about-contact-container h2 {
     color: var(--color-primary);
+    font-weight: 600;
     padding: 5rem 0 2rem 0;
     margin-bottom: 3rem;
     border-bottom: 2px solid var(--color-primary);
@@ -189,7 +196,7 @@ footer {
     margin-top: 5rem;
 }
 
-footer h4 {
+footer h3 {
     font-size: 1rem;
     font-weight: 500;
     color: var(--color-white);
