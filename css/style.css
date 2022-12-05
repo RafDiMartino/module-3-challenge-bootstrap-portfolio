@@ -7,6 +7,10 @@
     --color-black-darker: rgb(0, 0, 0);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--color-secondary);
@@ -116,8 +120,8 @@ header {
 .skills-container h2,
 .about-contact-container h2 {
     color: var(--color-primary);
-    margin: 5rem 0 3rem 0;
-    padding-bottom: 1rem;
+    padding: 5rem 0 2rem 0;
+    margin-bottom: 3rem;
     border-bottom: 2px solid var(--color-primary);
 }
 
