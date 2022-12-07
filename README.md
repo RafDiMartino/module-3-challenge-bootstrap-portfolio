@@ -8,7 +8,7 @@ In this assignement my task was to create a Personal Portfolio Webpage using Boo
 - Bootstrap Grid
 - Bootstrap Cards
 
-With this Bootstrap solution I have also managed responsive layouts without the use of CSS media queries.
+With this Bootstrap solution I have also managed responsive layouts without the use of CSS media queries and used as many bootstrap classes as I could.
 
 ![**screenshot of the application**](/images/application-screenshot.png)
 
