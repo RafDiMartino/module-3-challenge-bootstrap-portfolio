@@ -14,21 +14,13 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--color-secondary);
-    position: relative;
 }
 
 header {
-    position: absolute;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: var(--color-black)
 }
 
 .custom-nav {
-    width: 100%;
-    padding: 2rem;
     max-width: var(--max-width);
     z-index: 10;
 }
@@ -37,7 +29,6 @@ header {
     color: var(--color-primary);
     font-size: 1.4rem;
     font-weight: 600;
-    text-align: center;
 }
 
 .custom-nav .navbar-brand:hover {
@@ -50,8 +41,6 @@ header {
 
 .nav-link {
     color: var(--color-white) !important;
-    text-align: center;
-    padding: .6rem;
     font-weight: 500;
 }
 
@@ -70,22 +59,15 @@ header {
 }
 
 .jumbotron-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     max-width: var(--max-width);
 }
 
 .jumbotron-container img{
     width: 125px;
-    padding-bottom: 1rem;
 }
 
 .jumbotron-container h1{
     font-weight: 600;
-    padding-bottom: 1rem;
-    background-color: transparent;
 }
 
 .jumbotron-container p{
@@ -93,19 +75,12 @@ header {
 }
 
 .contacts-links {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    width: 100%;
-    padding-top: 1rem;
     height: 60px;
 }
 
 .contacts-links a {
     color: var(--color-white);
-    text-decoration: none;
     font-size: 1.5rem;
-    margin: 0 1rem;
 }
 
 .contacts-links a:hover {
@@ -118,7 +93,6 @@ header {
 .skills-container,
 .about-contact-container {
     max-width: var(--max-width);
-    text-align: center;
     color: var(--color-white);
 }
 /* Grouping classes following the DRY principle */
@@ -126,14 +100,7 @@ header {
 .skills-container h2,
 .about-contact-container h2 {
     color: var(--color-primary);
-    font-weight: 600;
-    padding: 5rem 0 2rem 0;
-    margin-bottom: 3rem;
     border-bottom: 2px solid var(--color-primary);
-}
-
-.card-container {
-    margin-bottom: 1.5rem;
 }
 
 .card {
@@ -154,49 +121,24 @@ header {
     color: var(--color-secondary);
     font-weight: 500;
     border: none;
-    
 }
 
 .card-body a:hover {
     background-color:var(--color-white);
     color: var(--color-black);
-    border: none;
     box-shadow: var(--color-primary) 0px 3px 8px;
 }
 
 .card-text{
-    color: var(--color-white) !important;
-    margin: 2rem 0;
-
-}
-
-.logos-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-figure {
-    padding: 1rem;
-}
-
-figure figcaption {
-    font-weight: 500;
+    color: var(--color-white);
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     height: 150px;
     background-color: var(--color-black);
-    margin-top: 5rem;
 }
 
-footer h3 {
+footer h4 {
     font-size: 1rem;
     font-weight: 500;
     color: var(--color-white);
@@ -204,7 +146,6 @@ footer h3 {
 
 footer hr {
     background-color: var(--color-primary);
-    margin: .7rem 0;
     width: 100px;
 }
 
