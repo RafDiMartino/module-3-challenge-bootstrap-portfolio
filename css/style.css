@@ -46,7 +46,7 @@ header {
 
 .nav-link:hover {
     color: var(--color-primary) !important;
-    border-radius: 5px;
+    box-shadow: 0 3px 1px -1px var(--color-white);
 }
 
 .custom-jumbotron {
@@ -83,8 +83,7 @@ header {
 }
 
 .contacts-links a:hover {
-    color: var(--color-primary);
-    box-shadow: rgba(255, 191, 0, 0.4) 0px 5px, rgba(255, 191, 0, 0.3) 0px 10px, rgba(255, 191, 0, 0.2) 0px 15px, rgba(255, 191, 0, 0.1) 0px 20px, rgba(255, 191, 0, 0.05) 0px 25px;
+    box-shadow: rgba(255, 191, 0, 0.4) 0px 2.5px, rgba(255, 191, 0, 0.3) 0px 5px, rgba(255, 191, 0, 0.2) 0px 7.5px, rgba(255, 191, 0, 0.1) 0px 10px, rgba(255, 191, 0, 0.05) 0px 12.5px;
 }
 
 /* Grouping classes following the DRY principle */
@@ -120,12 +119,13 @@ header {
     color: var(--color-secondary);
     font-weight: 500;
     border: none;
+    box-shadow: var(--color-white) 2px 3px 1px;
 }
 
 .card-body a:hover {
     background-color:var(--color-white);
     color: var(--color-black);
-    box-shadow: var(--color-primary) 0px 3px 8px;
+    box-shadow: var(--color-primary) 2px 3px 1px;
 }
 
 .card-text{
@@ -133,7 +133,7 @@ header {
 }
 
 footer {
-    height: 150px;
+    height: 200px;
     background-color: var(--color-black);
 }
 
@@ -146,6 +146,10 @@ footer h4 {
 footer hr {
     background-color: var(--color-primary);
     width: 100px;
+}
+
+footer .contacts-links a:hover {
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 2.5px, rgba(255, 255, 255, 0.3) 0px 5px, rgba(255, 255, 255, 0.2) 0px 7.5px, rgba(255, 255, 255, 0.1) 0px 10px, rgba(255, 255, 255, 0.05) 0px 12.5px;
 }
 
 footer p {
